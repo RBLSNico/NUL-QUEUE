@@ -42,7 +42,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 `timeout` timestamp NULL DEFAULT NULL,
                 `remarks` int(11) DEFAULT NULL,
                 `transaction` varchar(255) DEFAULT NULL,
-                `status` int(11) DEFAULT NULL,
+                `status` int(11) DEFAULT 0,
+                `availability` int(11) DEFAULT 0,
+                `window` varchar(255) NOT NULL,
+                `endorsed_to` varchar(255) DEFAULT NULL,
                 PRIMARY KEY (`id`)
             )";
 
@@ -61,6 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     `queue_number` varchar(255) NOT NULL,
                     `student_id` varchar(12) NOT NULL,
                     `endorsed_from` varchar(255) DEFAULT NULL,
+                    `endorsed_to` varchar(255) DEFAULT NULL,
                     `timestamp` timestamp NOT NULL DEFAULT current_timestamp(),
                     `timeout` timestamp NULL DEFAULT NULL,
                     `remarks` int(11) DEFAULT NULL,

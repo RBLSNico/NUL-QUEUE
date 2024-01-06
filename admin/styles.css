@@ -1,0 +1,306 @@
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.blue-bg {
+  background-color: #34418E;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.nu_color{
+  color: #34418E;
+}
+
+.img_logo {
+  margin-top: 40%;
+}
+
+.btn-blue {
+  background-color:#34418E;
+  border-radius: 25px;
+  color: #FFD41C;
+  font-size: x-large;
+}
+
+.btn-blue:hover {
+  background-color:#34418E;
+  border-radius: 25px;
+  color: #FFD41C;
+  font-size: x-large;
+
+}
+
+.btn-yellow {
+  background-color:#FFD41C;
+  border-radius: 25px;
+  color: #34418E;
+  font-size: x-large;
+}
+
+.btn-yellow:hover {
+  background-color:#FFD41C;
+  border-radius: 25px;
+  color: #34418E;
+  font-size: x-large;
+}
+
+.modal-secondary {
+  font-size: .8rem !important;
+}
+
+.btn-yes {
+  background-color: #34418E !important;
+  color: #FFD41C !important;
+  font-weight: bold;
+}
+
+.btn-no {
+  background-color: #FFD41C!important;
+  color: #34418E!important;
+  font-weight: bold;
+}
+
+.queue-number {
+  font-weight: bold !important;
+}
+
+.modal-dialog {
+  margin-top: 15rem !important;
+}
+
+/* CUSTOM CSS STARTS */
+.custom-italic {
+  font-style: italic;
+}
+
+.custom-bold{
+  font-weight: bold;
+}
+
+.custom-primary-color {
+  color:#34418E !important;
+}
+
+.custom-secondary-color {
+  color:#FFD41C !important;
+}
+/* CUSTOM CSS ENDS */
+
+/* Accounting log in css */
+
+.login{
+  width: 500px;
+  overflow: hidden;
+  margin: auto;
+  margin: 20 0 0 450px;
+  padding: 80px;
+  background: #34418E;
+  border-radius: 15px ;
+
+}
+h2{
+text-align: center;
+color: #FFD41C;
+padding: 20px;
+}
+label{
+color: #ffffff;
+font-size: 18px;
+}
+#email{
+width: 300px;
+height: 30px;
+border: none;
+border-radius: 3px;
+padding-left: 8px;
+}
+
+#password{
+width: 300px;
+height: 30px;
+border: none;
+border-radius: 3px;
+padding-left: 8px;
+}
+
+#log{
+width: 300px;
+height: 30px;
+border: none;
+border-radius: 17px;
+padding-left: 7px;
+color: blue;
+
+
+}
+span{
+color: white;
+font-size: 17px;
+}
+a{
+float: right;
+background-color: grey;
+}
+
+.header{
+  background-color:#34418E;
+  display: flex;
+  min-height: 10vh;
+}
+
+.side-block{
+  background-color:#FFD41C;
+  display: flex;
+  min-height: 5vh;
+  margin-right: 70%;
+}
+
+
+.side-text{
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 8%;
+}
+
+.side-que{
+  background-color:grey;
+  display: flex;
+  min-height:fit-content;
+  margin-right: 70%;
+  padding: 20px;
+}
+
+.main-page{
+  background-color:grey;
+  display: flex;
+  padding: 20px;
+  margin-left: 30%;
+}
+
+.center-content {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 40%; /* Adjust the width as needed */
+  padding: 3%;
+  
+}
+.remarkac{
+  font-weight: bold;
+  color: #333;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding-bottom: 60px;
+  background-color: lightgrey;
+}
+.txtque{
+  font-size: 65px;
+  font-weight: bold;
+}
+
+#formContainer {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%; /* Adjust the width as needed */
+  padding: 20px;
+  border: 1px solid #ccc;
+  color: black; /* Set the text color to black */
+}
+
+/* Custom styles for the side navigation */
+.sidenav {
+  height: 100vh;
+  width: 260px; /* Adjust the width as needed */
+  position: absolute;
+  top: 100;
+  left: 0;
+  background-color: #f8f9fa;
+  overflow-y: auto;
+}
+.side_navtxt{
+  background-color: #ffdb58;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: .1%;
+  padding-top: 7%;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+}
+.sidetxt{
+ font-weight: bold; 
+ color: black;
+ font-size: 30px;
+}
+.sidenav button {
+  width: 100%;
+  text-align: left;
+  padding: 8px;
+  background-color: transparent;
+  cursor: pointer;
+  border: solid 1px black;
+}
+
+.sidenav button:hover {
+  background-color: #d1d1d1;
+}
+
+/* Adjust the main content area to give space for the side navigation */
+.main-content {
+  margin-left: 220px; /* Match the width of the sidebar */
+  padding: 15px;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #34418E;
+  color: #ffdb58;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+.button:hover{
+  background-color: #ffdb58;
+  color: #34418E;
+  font-weight: bold;
+}
+.drop{
+  padding-right: 25px;
+  padding-left: 10px;
+  font-size: 15px;
+  border: solid 1px grey;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+}
+.drop-item{
+  background-color: #ced4da;
+}
+.drop-item:focus{
+  background-color: white;
+}
+.popup{
+  width: 400px;
+  background-color: white;
+  border-radius: 20px; 
+  position: absolute;
+  top:0%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: left;
+  padding-left: 5%;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+.open-popup{
+  visibility: visible;
+  top:50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+

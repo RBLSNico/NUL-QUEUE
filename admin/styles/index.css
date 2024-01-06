@@ -1,0 +1,196 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blue-bg {
+    background-color: #34418E;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.nu_color{
+    color: #34418E;
+}
+
+.img_logo {
+    margin-top: 40%;
+}
+
+.btn-blue {
+    background-color:#34418E;
+    border-radius: 25px;
+    color: #FFD41C;
+    font-size: x-large;
+}
+
+.btn-blue:hover {
+    background-color:#34418E;
+    border-radius: 25px;
+    color: #FFD41C;
+    font-size: x-large;
+
+}
+
+.btn-yellow {
+    background-color:#FFD41C;
+    border-radius: 25px;
+    color: #34418E;
+    font-size: x-large;
+}
+
+.btn-yellow:hover {
+    background-color:#FFD41C;
+    border-radius: 25px;
+    color: #34418E;
+    font-size: x-large;
+}
+
+.modal-secondary {
+    font-size: .8rem !important;
+}
+
+.btn-yes {
+    background-color: #34418E !important;
+    color: #FFD41C !important;
+    font-weight: bold;
+}
+
+.btn-no {
+    background-color: #FFD41C!important;
+    color: #34418E!important;
+    font-weight: bold;
+}
+
+.queue-number {
+    font-weight: bold !important;
+}
+
+.modal-dialog {
+    margin-top: 15rem !important;
+}
+
+/* CUSTOM CSS STARTS */
+.custom-italic {
+    font-style: italic;
+}
+
+.custom-bold{
+    font-weight: bold;
+}
+
+.custom-primary-color {
+    color:#34418E !important;
+}
+
+.custom-secondary-color {
+    color:#FFD41C !important;
+}
+/* CUSTOM CSS ENDS */
+
+/* index css */
+.custom-header {
+    background-color: #34418E; /* Change this to your desired custom color */
+    color: #fff; /* Text color inside the header */
+}
+
+.btn-select-blue {
+    background-color:#34418E;
+    border-radius: 10px;
+    color: #FFD41C;
+    font-size: x-large;
+}
+
+.btn-select-blue:hover {
+    background-color:#34418E;
+    border-radius: 10px;
+    color: #FFD41C;
+    font-size: x-large;
+
+}
+
+.btn-select-yellow {
+    background-color:#FFD41C;
+    border-radius: 10px;
+    color: #34418E;
+    font-size: x-large;
+}
+
+.btn-select-yellow:hover {
+    background-color:#FFD41C;
+    border-radius: 10px;
+    color: #34418E;
+    font-size: x-large;
+}
+
+option {
+    font-size: 80%;
+}
+
+
+.dashboard-bg:focus{
+    background-color: #ffffff63;
+}
+
+.dashboard-bg:hover{
+    background-color: #ffffff63;
+}
+
+hr{
+    background-color: #FFD41C;
+    color: #FFD41C;
+    min-height: .3rem;
+}
+
+.card-db{
+    border-color: #34418E;
+    border-width: .2rem;
+}
+
+
+.align-center-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+}
+
+.mt-n4 {
+    margin-top: -2.5rem !important;
+  }
+
+.mt-max {
+    margin-top: 60vh !important;
+}
+
+.small-chart {
+    width: 30px;
+    height: 20px;
+}
+
+/* ASIDE.PHP STARTS */
+.dropbtn{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    padding: 1.5rem 1.5rem 1.5rem 20% !important;
+}
+
+.dropbtn:hover {
+    width: 100%;
+    background-color: #ffffff63;
+    padding:  0  0 0 1.5rem;
+}
+
+/* ASIDE.PHP ENDS */
+
+
+

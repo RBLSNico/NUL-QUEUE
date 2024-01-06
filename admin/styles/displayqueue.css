@@ -1,0 +1,346 @@
+:root {
+    --primary-color: #34418E;
+    --secondary-color: #FFD41C;
+}
+
+* {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html {
+    font-size: 120%;
+}
+
+body::before {
+    content: "";
+    background-image: url("../assets/images/nulagunahero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.55;
+    z-index: -1;
+}
+
+.main-container {
+    width: 90%;
+    margin: 10rem auto;
+    overflow-y: hidden;
+}
+
+.heading-datetime-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading-text {
+    font-size: 10rem;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+#date {
+    font-size: 7rem;
+}
+
+#time {
+    font-size: 10rem;
+    font-weight: bold;
+}
+
+.raa-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+    gap: 5rem;
+}
+
+.registrar-heading {
+    position: relative;
+    background-color: var(--secondary-color);
+    border-radius: 75px;
+    z-index: 2;
+}
+
+.registrar-heading h1 {
+    color: var(--primary-color);
+    font-size: 6rem;
+    padding: 1rem 15rem;
+}
+
+.registrar-queue-container {
+    position: relative;
+    padding: 8rem 5rem 4rem 5rem;
+    margin-top: -5rem;
+    z-index: 1;
+    background-color: var(--primary-color);
+    border-radius: 75px;
+}
+
+.registrar-queue {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.registrar-queue h2 {
+    font-size: 5rem;
+    color: var(--secondary-color);
+}
+
+.accounting-heading {
+    position: relative;
+    background-color: var(--secondary-color);
+    border-radius: 75px;
+    z-index: 2;
+}
+
+.accounting-heading h1 {
+    color: var(--primary-color);
+    font-size: 6rem;
+    padding: 1rem 15rem;
+}
+
+.accounting-queue-container {
+    position: relative;
+    padding: 8rem 5rem 4rem 5rem;
+    margin-top: -5rem;
+    z-index: 1;
+    background-color: var(--primary-color);
+    border-radius: 75px;
+}
+
+.accounting-queue {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.accounting-queue h2 {
+    font-size: 5rem;
+    color: var(--secondary-color);
+}
+
+.admission-heading {
+    position: relative;
+    background-color: var(--secondary-color);
+    border-radius: 75px;
+    z-index: 2;
+}
+
+.admission-heading h1 {
+    color: var(--primary-color);
+    font-size: 5rem;
+    padding: 1rem 4rem;
+}
+
+.admission-queue-container {
+    position: relative;
+    padding: 8rem 5rem 4rem 5rem;
+    margin-top: -5rem;
+    z-index: 1;
+    background-color: var(--primary-color);
+    border-radius: 75px;
+}
+
+.admission-queue {
+    text-align: center;
+}
+
+.admission-queue h2 {
+    font-size: 5rem;
+    color: var(--secondary-color);
+}
+
+.acig-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+}
+
+.assets-heading {
+    position: relative;
+    background-color: var(--secondary-color);
+    border-radius: 75px;
+    padding: 0 5rem;
+    z-index: 2;
+}
+
+.assets-heading h1 {
+    color: var(--primary-color);
+    font-size: 6rem;
+    padding: 1rem 15rem;
+}
+
+.assets-queue-container {
+    position: relative;
+    padding: 8rem 5rem 4rem 5rem;
+    margin-top: -5rem;
+    z-index: 1;
+    background-color: var(--primary-color);
+    border-radius: 75px;
+}
+
+.assets-queue {
+    text-align: center;
+}
+
+.assets-queue h2 {
+    font-size: 5rem;
+    color: var(--secondary-color);
+}
+
+.clinic-heading {
+    position: relative;
+    background-color: var(--secondary-color);
+    border-radius: 75px;
+    padding: 0 2rem;
+    z-index: 2;
+}
+
+.clinic-heading h1 {
+    color: var(--primary-color);
+    font-size: 5rem;
+    padding: 1rem 8rem;
+}
+
+.clinic-queue-container {
+    position: relative;
+    padding: 8rem 5rem 4rem 5rem;
+    margin-top: -5rem;
+    z-index: 1;
+    background-color: var(--primary-color);
+    border-radius: 75px;
+}
+
+.clinic-queue {
+    text-align: center;
+}
+
+.clinic-queue h2 {
+    font-size: 5rem;
+    color: var(--secondary-color);
+}
+
+.itso-heading {
+    position: relative;
+    background-color: var(--secondary-color);
+    border-radius: 75px;
+    z-index: 2;
+}
+
+.itso-heading h1 {
+    color: var(--primary-color);
+    font-size: 5rem;
+    padding: 1rem 8rem;
+}
+
+.itso-queue-container {
+    position: relative;
+    padding: 8rem 5rem 4rem 5rem;
+    margin-top: -5rem;
+    z-index: 1;
+    background-color: var(--primary-color);
+    border-radius: 75px;
+}
+
+.itso-queue {
+    text-align: center;
+}
+
+.itso-queue h2 {
+    font-size: 5rem;
+    color: var(--secondary-color);
+}
+
+.guidance-heading {
+    position: relative;
+    background-color: var(--secondary-color);
+    border-radius: 75px;
+    z-index: 2;
+}
+
+.guidance-heading h1 {
+    color: var(--primary-color);
+    font-size: 4.5rem;
+    padding: 1rem 4rem;
+}
+
+.guidance-queue-container {
+    position: relative;
+    padding: 8rem 5rem 4rem 5rem;
+    margin-top: -5rem;
+    z-index: 1;
+    background-color: var(--primary-color);
+    border-radius: 75px;
+}
+
+.guidance-queue {
+    text-align: center;
+}
+
+.guidance-queue h2 {
+    font-size: 5rem;
+    color: var(--secondary-color);
+}
+
+/* MEDIA QUERY*/
+@media (max-width: 3600px) {
+    html {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 1920px) {
+    html {
+        font-size: 60%;
+    }
+
+    .main-container {
+        margin: 5rem auto;
+    }
+
+    .registrar-queue,
+    .accounting-queue,
+    .admission-queue,
+    .assets-queue,
+    .clinic-queue,
+    .itso-queue,
+    .guidance-queue {
+        border-radius: 50px;
+        margin-top: -5rem;
+        padding: 9rem 5rem 6rem 5rem;
+    }
+}
+
+@media (max-width: 1440px) {
+    html {
+        font-size: 45%;
+    }
+
+    .main-container {
+        margin: 12rem auto;
+    }
+
+    .registrar-queue,
+    .accounting-queue,
+    .admission-queue,
+    .assets-queue,
+    .clinic-queue,
+    .itso-queue,
+    .guidance-queue {
+        border-radius: 40px;
+    }
+}
+
+@media (max-width: 772px) {
+    body::before {
+        background-image: url("assets/images/nulagunaheromobile.jpg");
+    }
+}

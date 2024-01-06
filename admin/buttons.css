@@ -1,0 +1,38 @@
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 19px;
+    background-color: #34418E;
+    color: #ffdb58;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: #ffd358;
+    color: #34418E;
+    font-weight: bold;
+
+}
+.button {
+    display: inline-block;
+    padding: 10px 43px;
+    font-size: 16px;
+    background-color: #34418E;
+    color: #ffdb58;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: #ffdb58;
+    color: #34418E;
+    font-weight: bold;
+}

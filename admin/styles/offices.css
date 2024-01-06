@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    list-style-type: none;   
+}
+
+a{
+    text-decoration: none;
+}
+
+.office-content {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.search {
+    position: relative;
+    width: 20rem;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+
+.search:hover, .search:focus {
+    border-color: #34418E;
+}
+
+.bi-search{
+    position: absolute;
+    z-index: 1000;
+    -webkit-text-stroke: 1px;
+    right: 18rem;
+    top: .8rem;
+}
+
+.myTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+}
+  
+.myTable th, .myTable td {
+    text-align: left;
+    padding: 12px;
+}
+  
+.myTable tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.myTable .header {
+    background-color: #34418E;
+}
+
+.myTable tr:hover {
+    background-color: #f1f1f1;
+}
+
+.myTable .header:hover {
+    background-color: #34418E;
+}
+
+.myTable th {
+    color: white;
+}
